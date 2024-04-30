@@ -31,6 +31,6 @@ with st.echo():
     options.add_argument("--headless")
 
     driver = get_driver()
-    driver.get("http://example.com")
+    driver.get("https://secure1.cpsd.us/school_committee/view_agenda.php?meetingID=459")
 
     st.code(driver.page_source)
